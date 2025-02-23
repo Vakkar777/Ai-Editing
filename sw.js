@@ -7,7 +7,7 @@ const ASSETS = [
     'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0',
     'https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0.0'
 ];
-
+ 
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
